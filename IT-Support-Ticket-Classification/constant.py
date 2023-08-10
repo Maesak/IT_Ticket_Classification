@@ -12,6 +12,7 @@ label_code = {
     "User Maintenance":3,
     "Security":4
 }
+
 additional_stopwords = ["i", "I","hi", "hello", "dear", "please", "thank","issue","product","purchase"]
 all_stopwords = list(stopwords.words('english'))
 all_stopwords.extend(additional_stopwords)
