@@ -6,6 +6,5 @@ spacy
 joblib
 re
 
-
 # python -m nltk.downloader stopwords wordnet words
 # python -m spacy download en_core_web_smv  
