@@ -34,6 +34,6 @@ if st.button("Classify"):
         vectorized_input = tfidf_vectorizer.transform([cleaned_input])
         prediction = model.predict(vectorized_input)[0]
 
-        # Find label name from code
+        # Find label name from code 
         label_name = [key for key, val in ct.label_code.items() if val == prediction][0]
         st.success(f"✅ The issue is classified as: **{label_name}**")
